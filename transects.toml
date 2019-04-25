@@ -1,0 +1,38 @@
+#=========================================================================================
+# This file defines the start and end times for our attenuated signal
+# acoustic data example and references to related metadata and
+# calibration files.
+#
+# This data is released by British Antarctic Survey for demonstration
+# and test purposes only.
+# =========================================================================================
+
+[[transect]]
+name = "Western Core Box attenuated signal"
+starttime = 2016-12-22T11:00:00Z
+endtime = 2016-12-22T13:00:00Z
+metadata_file = "https://github.com/bas-acoustics/wcb-attenuated-signal/blob/master/JR16003-metadata.toml"
+calibration_file = "https://github.com/bas-acoustics/wcb-attenuated-signal/blob/master/ZDLP-D20161224-cal.toml"
+temperature = 0.86 # transect-specific temperature (Degrees C)
+salinity = 33.84 # transect-specifi salinity (PSU)
+soundspeed = 1456.09 # transect-specific sound speed value (m s-1)
+area = ["Scotia Sea", "Southern Atlantic"] # list of geographical areas along the transect
+frequencies = [38, 120, 200]
+keywords = ["attenuated signal"]
+env = [] # list of environmental files
+raws = [
+     "ftp://ftp.bas.ac.uk/rapidkrill/jr16003/JR16003_-D20161222-T105342.raw",
+     "ftp://ftp.bas.ac.uk/rapidkrill/jr16003/JR16003_-D20161222-T110250.raw",
+     "ftp://ftp.bas.ac.uk/rapidkrill/jr16003/JR16003_-D20161222-T111158.raw",
+     "ftp://ftp.bas.ac.uk/rapidkrill/jr16003/JR16003_-D20161222-T112106.raw",
+     "ftp://ftp.bas.ac.uk/rapidkrill/jr16003/JR16003_-D20161222-T113014.raw",
+     "ftp://ftp.bas.ac.uk/rapidkrill/jr16003/JR16003_-D20161222-T113922.raw",
+     "ftp://ftp.bas.ac.uk/rapidkrill/jr16003/JR16003_-D20161222-T114830.raw",
+     "ftp://ftp.bas.ac.uk/rapidkrill/jr16003/JR16003_-D20161222-T115738.raw",
+     "ftp://ftp.bas.ac.uk/rapidkrill/jr16003/JR16003_-D20161222-T120646.raw",
+     "ftp://ftp.bas.ac.uk/rapidkrill/jr16003/JR16003_-D20161222-T121554.raw",
+     "ftp://ftp.bas.ac.uk/rapidkrill/jr16003/JR16003_-D20161222-T122502.raw",
+     "ftp://ftp.bas.ac.uk/rapidkrill/jr16003/JR16003_-D20161222-T123410.raw",
+     "ftp://ftp.bas.ac.uk/rapidkrill/jr16003/JR16003_-D20161222-T124318.raw",
+     "ftp://ftp.bas.ac.uk/rapidkrill/jr16003/JR16003_-D20161222-T125226.raw"]
+
