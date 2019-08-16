@@ -11,8 +11,8 @@
 name = "Western Core Box attenuated signal"
 starttime = 2016-12-22T11:00:00Z
 endtime = 2016-12-22T13:00:00Z
-metadata_file = "https://github.com/bas-acoustics/wcb-attenuated-signal/blob/master/JR16003-metadata.toml"
-calibration_file = "https://github.com/bas-acoustics/wcb-attenuated-signal/blob/master/ZDLP-D20161224-cal.toml"
+metadata_file = "https://raw.githubusercontent.com/bas-acoustics/wcb-attenuated-signal/master/JR16003-metadata.toml"
+calibration_file = "https://raw.githubusercontent.com/bas-acoustics/wcb-attenuated-signal/master/ZDLP-D20161224-cal.toml"
 temperature = 0.86 # transect-specific temperature (Degrees C)
 salinity = 33.84 # transect-specifi salinity (PSU)
 soundspeed = 1456.09 # transect-specific sound speed value (m s-1)
